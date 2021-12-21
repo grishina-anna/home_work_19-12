@@ -15,7 +15,7 @@ class TextBoxTests {
     }
 
     @Test
-    void fillFormTest() {
+     void fillFormTest() {
         open("https://demoqa.com/automation-practice-form");
 
         $("#firstName").setValue("Anna");
